@@ -1,0 +1,17 @@
+{
+  "name": "mimetect-project",
+  "version": "1.0.0",
+  "description": "README FILE",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build ./public/src/tailwind.css -o ./public/style.css",
+    "dev": "tailwindcss -i ./public/src/tailwind.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "tailwindcss": "^3.3.3"
+  }
+}
