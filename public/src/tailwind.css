@@ -1,4 +1,76 @@
 @tailwind base;
 @tailwind components;
-/*css styles go here*/
 @tailwind utilities;
+
+.element{
+    content: "";
+    position: absolute;
+    height: 50px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transform: skewY(-3deg);
+}
+
+.skewed-container {
+    overflow: hidden;
+  }
+  
+  .skewed-container::before {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    right: 0px;
+    left: 0px;
+    background-color: #000;
+    transform: skewY(-5deg);
+    z-index: 30;
+    height: 80px;
+  }
+
+  .top-skew{
+    overflow: hidden;
+  }
+
+  .top-skew::after{
+    content: '';
+    position: absolute;
+    top: -5%;
+    left: 0;
+    background-color: #000;
+    height: 80px;
+    transform: skewY(2deg);
+    width: 100%;
+
+  }
+
+  .ceo{
+    overflow: hidden;
+  }
+
+  .ceo::after{
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: 0;
+    right: 0;
+    height: 110px;
+    background-color: #494947   ;
+    transform: skewY(-2deg);
+  }
+
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+  
+  
+  
+  /* .skewed-container .skew-fix {
+    transform: skewY(-5deg);
+    background-color: #fff;
+
+  } */
+  
