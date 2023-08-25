@@ -24,7 +24,7 @@
 
 </head>
 
-<body class="dark:bg-black dark:text-gray-300 font-lato">
+<body class="dark:bg-dm dark:text-gray-300 font-lato">
     <header class="h-[100vh]">
         <section class="relative w-full h-full z-10">
             <div class="p-4 w-10/12 m-auto mt-2">
@@ -59,7 +59,7 @@
                         <div class="border-b-4 border-b-gray-400 w-28 mx-auto"></div>
                     </div>
 
-                    <div class="text-content flex items-center space-x-4">
+                    <div class="text-content md:flex items-center space-x-4 flex-row ">
                         <div class="prose text-center text-light">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab magnam autem
                                 praesentium repellendus molestias ullam qui accusamus beatae asperiores! Aliquam, vel!
@@ -135,16 +135,16 @@
         <section class="relative bg-semi-white">
             <div class="ceo w-full">
                 <div class="my-6 mt-20 px-4 w-11/12 mx-auto">
-                    <div class="flex justify-between items-center mt-12 p-3 ">
-                        <div class=" basis-2/6 w-80 h-80 flex items-center justify-center">
+                    <div class="md:flex justify-between items-center mt-12 p-3 ">
+                        <div class="basis-2/6 w-80 h-80 flex items-center justify-center">
                             <div>
                                 <img src="./img/profile.jpg" alt="CEO"
                                     class="rounded-full w-72 h-72 object-cover object-center">
                             </div>
                         </div>
-                        <div class="basis-8/12">
+                        <div class="md:basis-8/12 basis-full">
                             <div class="flex flex-col px-3 py-4">
-                                <i class="fa-solid fa-quote-left text-7xl text-white mb-3"></i>
+                                <i class="fa-solid fa-quote-left md:text-7xl text-4xl text-white mb-3"></i>
                                 <div class="font-oswald text-base">
                                     <p class="tracking-wider leading-snug font-lato font-light mb-6">Lorem ipsum dolor
                                         sit amet consectetur adipisicing elit. Cum tenetur amet
@@ -167,7 +167,7 @@
         <section class="gallery py-6 px-2">
             <div class="py-4 mt-4 flex flex-col space-y-8">
                 <div class="text-center py-4">
-                    <h5 class="font-light text-normal">arranged into beautiful collections &nearrow; categories</h5>
+                    <h5 class="font-light text-normal capitalize">arranged into beautiful collections &nearrow; categories</h5>
                     <h2 class="font-semibold text-4xl my-3">
                         <span class="font-light">
                             Browse Through And
@@ -178,7 +178,7 @@
                 </div>
 
                 <div>
-                    <div class="grid grid-cols-4 place-content-center place-items-center gap-3 px-3 py-4">
+                    <div class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 place-content-center place-items-center gap-3 px-3 py-4">
                         <div x-data="{showHidden : false}" class="relative">
                             <img @mouseenter="showHidden = true" @mouseleave="showHidden = false"
                                 class="h-80 object-cover cursor-pointer" src="./img/Gallery/bed_room.jpeg"
@@ -353,8 +353,31 @@
                 </div><!-- Gallery -->
             </div>
         </section><!-- Gallery Ends -->
+
+        <section class="mt-4 py-4 px-4">
+            <div class="w-10/12 capitalize mx-auto space-y-4 flex flex-col items-center justify-center">
+                <div class="border-b pb-3">
+                    <h1 class="font-semibold text-4xl my-3"><span class="font-light">Watch As It unfolds <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 inline h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                      </svg>
+                      
+                    </span>Architechual Projects</h1>
+                </div>
+                <div class="mt-4 py-4 w-full grid md:grid-cols-2 gap-4 space-y-4">
+                    <img src="./img/interior_k.jpg" alt="">
+                    <img src="./img/interior_k.jpg" alt="">
+                </div>
+            </div>
+        </section>
     </main>
 
+    <footer class="py-4">
+            <div class="text-center">
+                <span class="text-normal font-semibold text-base">&#169; MimeTech</span>
+                <p class="font-light text-sm">Developed By Team Emesak</p>
+            </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 
