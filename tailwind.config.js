@@ -12,7 +12,8 @@ module.exports = {
         'dark-gray' : "#353535"
       },
       backgroundColor:{
-        'semi-white': '#494947  '
+        'semi-white': '#494947',
+        'dm' : '#22272E'
       }
     },
   },
