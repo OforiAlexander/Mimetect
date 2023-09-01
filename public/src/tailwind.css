@@ -13,7 +13,7 @@
     transform: skewY(-3deg);
 }
 
-.skewed-container {
+/* .skewed-container {
     overflow: hidden;
   }
   
@@ -33,6 +33,15 @@
     overflow: hidden;
   }
 
+.bg-image{
+background-image: url('../img/interior.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100%;
+} */
+/* 
   .top-skew::after{
     content: '';
     position: absolute;
@@ -43,22 +52,25 @@
     transform: skewY(2deg);
     width: 100%;
 
-  }
+  } */
 
   .ceo{
     overflow: hidden;
   }
 
-  .ceo::after{
+  .slider.active{
+    display: flex;
+  }
+  /* .ceo::after{
     content: "";
     position: absolute;
     top: -5%;
     left: 0;
     right: 0;
-    height: 110px;
+    height: 60px;
     background-color: #494947   ;
     transform: skewY(-2deg);
-  }
+  } */
 
   .hidden {
     opacity: 0;
