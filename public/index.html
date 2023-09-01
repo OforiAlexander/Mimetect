@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>MimeTech</title>
     <link rel="stylesheet" href="style.css?ver1.1">
 
@@ -25,42 +26,42 @@
 </head>
 
 <body class="dark:bg-dm dark:text-gray-300 font-lato">
-    <header class="h-[100vh]">
-        <section class="relative w-full h-full z-10">
+    <header class="mb-8 h-[80vh]">
+        <section class="relative w-full h-full" style="background-image: url('./img/Gallery/kitchen_white.jpg'); background-position:center center; background-size:cover; background-repeat:no-repeat;">
             <div class="p-4 w-10/12 m-auto mt-2">
                 <div class="text-yellow-400 uppercase text-4xl font-bold">Mimetech</div>
             </div>
 
             <div
-                class="space-y-4 px-3 py-4 w-full h-80 flex flex-col items-center justify-end text-gray-100 text-center">
-                <div>
-                    <h1 class="text-7xl font-light text-left capitalise">We Turn Your Home
+                class="space-y-4 px-3 py-4 w-full h-80 flex flex-col items-center justify-center text-black text-center">
+                <div class="space-y-4">
+                    <h1 class="text-7xl font-light text-center capitalise font-oswald">We Turn Your Home
                     </h1>
-                    <span class="font-extrabold text-5xl text-center w-full">Into Your Biggest Fantasy</span>
+                    <span class="font-semibold text-6xl text-orange-500 text-center w-full">Into Your Biggest Fantasy</span>
 
                 </div>
-            </div>
+            </div> 
+                   <!-- bg-video -->
+        <!-- <span class="absolute w-full h-full top-0 right-0 bg-black bg-opacity-30">
+        </span> -->
         </section>
-        <!-- bg-video -->
-        <video class="absolute w-full object-center object-cover h-[100vh] bg-fixed top-0 right-0" autoplay muted loop>
-            <source src="./img/videos/ob2.mp4" type="video/mp4">
-        </video>
+
     </header>
 
     <main>
-        <section class="container">
-            <div class="w-full px-4 py-14">
+        <section class="container ">
+            <div class="w-full px-4 py-">
                 <div class="w-9/12 mx-auto flex flex-col items-center space-y-3 justify-center">
                     <div>
                         <div class="text-xs">
                             Architechual and interior decor masters
                         </div>
-                        <h2 class="text-4xl font-oswald font-bold mb-4">What We Offer</h2>
+                        <h2 class="text-6xl font-oswald font-bold mb-4">What We Offer</h2>
                         <div class="border-b-4 border-b-gray-400 w-28 mx-auto"></div>
                     </div>
 
-                    <div class="text-content md:flex items-center space-x-4 flex-row ">
-                        <div class="prose text-center text-light">
+                    <div class="text-content flex items-center space-x-4 flex-row ">
+                        <div class="prose text-left text-light">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab magnam autem
                                 praesentium repellendus molestias ullam qui accusamus beatae asperiores! Aliquam, vel!
                                 Nobis reprehenderit praesentium dolorem aspernatur harum est quaerat dignissimos
@@ -72,27 +73,24 @@
                                 eos iusto voluptate, assumenda reprehenderit accusantium distinctio, nihil debitis enim,
                                 maxime aut vero corporis modi dolorum mollitia voluptas sequi quae!</p>
                         </div>
-                        <div class="container">
-                            <img src="./img/videos/profile.jpg" alt="">
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="relative h-full">
+        <section class="relative  h-full">
             <div class="img-services w-full mt-12">
                 <div class="w-full">
-                    <div class="top-skew relative w-full h-full borber-2 bg-fixed">
-                        <img src="./img/interior.jpg" class="w-full  object-cover object-center skew-fix" />
+                    <div class="top-skew relative w-full h-full borber-2 bg-fixed bg-image">
+                        <img src="./img/interior.jpg" class="w-full object-cover object-center skew-fix" />
                         <div class="absolute top-0 left-0 w-full py-6 px-3 text-white h-full bg-black bg-opacity-30">
                             <div class="w-11/12 flex flex-col items-center mt-12 justify-center text-center mx-auto">
                                 <h3 class="text-5xl font-bold"><span>Our </span>Services</h3>
                                 <em class="text-orange-400 font-light pb-1 border-b-2 border-b-gray-50">What we
                                     Offer</em>
                                 <div
-                                    class="flex md:flex-row flex-col items-center justify-center space-x-4 w-full shrink-0 my-3 px-3 py-5">
+                                    class="flex  items-center justify-center space-x-4 w-full my-3 px-3 py-5">
                                     <div class="container">
-                                        <div class="flex flex-row space-x-4 items-center px-3 py-4 slider">
+                                        <div class="flex flex-row space-x-4 space-y-4 items-center px-3 py-4 slider">
                                             <div class="basis-1/2 text-left">
                                                 <h3 class="text-center text-4xl font-semibold mb-4">Interior Design</h3>
                                                 <div class="border-2 border-gray-400 w-24 text-center mx-auto"></div>
@@ -105,7 +103,7 @@
                                             </div>
                                         </div><!-- slider1 -->
 
-                                        <div class="flex flex-row items-center px-3 py-4 space-x-4 slider">
+                                        <div class="flex flex-row items-center px-3 py-4 space-y-4 space-x-4 slider">
                                             <div class="basis-1/2 text-left">
                                                 <h3 class="text-center text-4xl font-semibold mb-4">Project Management
                                                 </h3>
@@ -132,7 +130,7 @@
                 </div>
             </div>
         </section>
-        <section class="relative bg-semi-white">
+        <section class="relative bg-semi-white border rounded-md border-gray-500 mt-12">
             <div class="ceo w-full">
                 <div class="my-6 mt-20 px-4 w-11/12 mx-auto">
                     <div class="md:flex justify-between items-center mt-12 p-3 ">
@@ -364,7 +362,7 @@
                       
                     </span>Architechual Projects</h1>
                 </div>
-                <div class="mt-4 py-4 w-full grid md:grid-cols-2 gap-4 space-y-4">
+                <div class="mt-4 py-4 w-full grid md:grid-cols-2 gap-4 space-y-4 md:space-y-0">
                     <img src="./img/interior_k.jpg" alt="">
                     <img src="./img/interior_k.jpg" alt="">
                 </div>

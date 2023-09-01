@@ -13,7 +13,8 @@ function slideShow()
         slidersIndex = 1;
     }
 
-    slides[slidersIndex-1].style.display = "flex";
+
+    slides[slidersIndex-1].style.display= window.innerWidth < 880 ? 'block' : 'flex';
 
     setTimeout(slideShow, 3000);
 }
