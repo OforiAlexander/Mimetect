@@ -14,7 +14,7 @@ function slideShow()
     }
 
 
-    slides[slidersIndex-1].style.display= window.innerWidth < 880 ? 'block' : 'flex';
+    slides[slidersIndex-1].style.display= window.innerWidth < 810 ? 'block' : 'flex';
 
     setTimeout(slideShow, 3000);
 }
