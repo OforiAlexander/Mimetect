@@ -77,9 +77,9 @@
                     <div
                         class="w-9/12 mx-auto flex flex-col items-center space-y-3 justify-center">
                         <div>
-                            <div class="text-xs">
+                            <!-- <div class="text-xs">
                                 Architechual and interior decor masters
-                            </div>
+                            </div> -->
                             <h2 class="text-6xl font-oswald font-bold mb-4">What
                                 We Offer</h2>
                             <div
@@ -148,7 +148,7 @@
 
             <!-- Our Services -->
             <section class="py-4 bg-black bg-opacity-60"
-                style="background-image: url('./img/interior.jpg'); background-position:center center; background-size:cover; background-repeat:no-repeat;">
+                style="background-image: url('./img/Gallery/interior.jpg'); background-position:center center; background-size:cover; background-repeat:no-repeat;">
                 <div class="mt-12 py-4  border-gray-950">
                     <div class="w-full  py-6 px-3 text-gray-50">
                         <div
@@ -164,7 +164,7 @@
 
                             <!-- second side component -->
                             <div
-                                class="flex  items-center justify-center space-x-4 w-full my-3 px-3 py-5">
+                                class="flex items-center justify-center space-x-4 w-full my-3 px-3 py-5">
                                 <div class="container">
                                     <div
                                         class="flex flex-row space-x-4 space-y-4 items-center px-3 py-4 slider">
@@ -188,7 +188,7 @@
                                         <div class="basis-1/2">
                                             <img
                                                 src="./img/bed_room.jpeg"
-                                                alt>
+                                                alt="Interior Decor">
                                         </div>
                                     </div><!-- slider1 -->
 
@@ -223,13 +223,13 @@
                                                 class="grid gap-3 grid-cols-2">
                                                 <img
                                                     src="./img/interior_bed.jpg"
-                                                    alt>
+                                                    alt="Project Management">
                                                 <img
                                                     src="./img/interior_k.jpg"
-                                                    alt>
+                                                    alt="Project Management">
                                                 <img
                                                     src="./img/ties.jpeg"
-                                                    alt
+                                                    alt="Project Management"
                                                     class="col-start-1 col-end-2">
                                             </div>
                                         </div>
@@ -249,9 +249,9 @@
                             class="md:flex justify-between items-center mt-12 p-3 ">
                             <div
                                 class="basis-2/6 w-80 h-80 flex items-center justify-center">
-                                <div>
-                                    <img src="./img/profile.jpg" alt="CEO"
-                                        class="rounded-full w-72 h-72 object-cover object-center">
+                                <div class="border shadow shadow-gray-400 p-2 rounded-lg">
+                                    <img src="./img/profile.jpeg" alt="CEO"
+                                        class="rounded-full w-72 h-72 object-cover object-top">
                                 </div>
                             </div>
                             <div class="md:basis-8/12 basis-full">
@@ -324,7 +324,7 @@
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
                                     src="./img/Gallery/bed_room.jpeg"
-                                    alt>
+                                    alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -347,7 +347,7 @@
                                     @mouseleave="showHidden = false"
                                     class="h-80 w-full object-cover cursor-pointer"
                                     src="./img/Gallery/hall_beauty.jpg"
-                                    alt>
+                                    alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -368,7 +368,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/hall_chair.jpg" alt>
+                                    src="./img/Gallery/hall_chair.jpeg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -390,7 +390,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 w-full object-cover cursor-pointer"
-                                    src="./img/Gallery/interior.jpg" alt>
+                                    src="./img/Gallery/interior.jpg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -411,7 +411,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/interior_bed.jpg" alt>
+                                    src="./img/Gallery/interior_bed.jpg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -431,7 +431,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/kitchen.jpeg" alt>
+                                    src="./img/Gallery/kitchen.jpeg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -452,7 +452,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/kitchen_nice.jpg" alt>
+                                    src="./img/Gallery/kitchen_nice.jpg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -475,7 +475,7 @@
                                     @mouseleave="showHidden = false"
                                     class="h-80 md:w-full object-cover cursor-pointer"
                                     src="./img/Gallery/kitchen_white.jpg"
-                                    alt>
+                                    alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -496,7 +496,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/living_room.jpeg" alt>
+                                    src="./img/Gallery/living_room.jpeg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -516,7 +516,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/ties.jpeg" alt>
+                                    src="./img/Gallery/ties.jpeg" alt="our Gallery">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -536,7 +536,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/ties.jpeg" alt>
+                                    src="./img/Gallery/home_deco.jpeg" alt="">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -556,7 +556,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/washroom.jpeg" alt>
+                                    src="./img/Gallery/washroom.jpeg" alt="">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -576,7 +576,7 @@
                                 <img @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
                                     class="h-80 object-cover cursor-pointer"
-                                    src="./img/Gallery/bed_room.jpeg" alt>
+                                    src="./img/Gallery/bed_room.jpeg" alt="">
                                 <div x-show="showHidden"
                                     @mouseenter="showHidden = true"
                                     @mouseleave="showHidden = false"
@@ -642,12 +642,14 @@
                     </div>
                     <div
                         class="mt-4 py-4 w-full grid md:grid-cols-2 gap-4 space-y-4 md:space-y-0">
-                        <img src="./img/interior_k.jpg" alt>
-                        <img src="./img/interior_k.jpg" alt>
+                        <img src="./img/building1.png" alt>
+                        <img src="./img/building_plan.jpeg" alt>
                     </div>
                 </div>
             </section>
         </main>
+
+        <section id="contact"></section>
 
         <footer class="py-4">
             <div class="text-center">
