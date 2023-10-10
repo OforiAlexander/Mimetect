@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpeg" sizes="32x32" href="img/MT_logo.jpeg" />
+    <meta
+      name="description"
+      content="Mimetect architectural and interior design company. An organization that works towards bring you desired design/astyle to life."
+    />
+    <meta
+      name="keywords"
+      content="interior design ,interior decoration, Home decor, buildings, construction, architectural, mimetect"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Mimetect architectural and interior design company."
+    />
+    <meta
+      property="og:description"
+      content="Mimetect architectural and interior design company. An organization that works towards bring you desired design/astyle to life."
+    />
+    <meta property="og:image" content="https://mimetect.com/img/MT_logo.jpeg" />
+    <meta property="og:url" content="https://mimetect.com" />
+    <title>MimeTec-Gallery</title>
+    <link rel="stylesheet" href="style.css?ver1.1" />
+
+    <!-- links to fonts Oswald and lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;900&family=Oswald:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.3/dist/cdn.min.js"
+    ></script>
+  </head>
+
+  <body class="bg-dm text-gray-300 font-lato">
+    <section class="py-6 px-4">
+      
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/bed_room.jpeg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                x-data="{showHidden : false}"
+                class="relative md:col-span-2 md:w-full"
+              >
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 w-full object-cover cursor-pointer"
+                  src="./img/Gallery/hall_beauty.jpg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/hall_chair.jpeg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                x-data="{showHidden : false}"
+                class="relative md:col-span-2 md:w-full"
+              >
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 w-full object-cover cursor-pointer"
+                  src="./img/Gallery/interior.jpg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/interior_bed.jpg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/kitchen.jpeg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/kitchen_nice.jpg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div
+                x-data="{showHidden : false}"
+                class="relative md:col-span-2 md:w-full"
+              >
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 md:w-full object-cover cursor-pointer"
+                  src="./img/Gallery/kitchen_white.jpg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/living_room.jpeg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/ties.jpeg"
+                  alt="our Gallery"
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/home_deco.jpeg"
+                  alt=""
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/washroom.jpeg"
+                  alt=""
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div x-data="{showHidden : false}" class="relative">
+                <img
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  class="h-80 object-cover cursor-pointer"
+                  src="./img/Gallery/bed_room.jpeg"
+                  alt=""
+                />
+                <div
+                  x-show="showHidden"
+                  @mouseenter="showHidden = true"
+                  @mouseleave="showHidden = false"
+                  x-transition:enter.delay
+                  class="flex justify-center items-center cursor-pointer absolute w-full h-full top-0 left-0 text-gray-100 bg-black bg-opacity-30"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-20 h-12"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="my-4 px-4 py-6 max-w-7xl text-center">
+                <button onclick="location.href='./index.html'" class="px-7 py-3 shadow-md border border-gray-100 font-medium text-gray-50 text-sm rounded-md hover:bg-gray-100 hover:text-gray-800 transition-all duration-200 ease-in-out">
+                    Go Home
+                </button>
+            </div>
+          </div>
+      </div>
+    </section>
+  </body>
+</html>

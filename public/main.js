@@ -1,5 +1,6 @@
 let slides = document.querySelectorAll('.slider');
 let slidersIndex = 0;
+let elVideo = document.getElementById('videos');
 
 function slideShow()
 {
@@ -20,3 +21,11 @@ function slideShow()
 }
 
 slideShow();
+
+document.addEventListener('DOMContentLoaded', function(){
+    let eleVideo = document.createElement('video');
+
+    eleVideo.src = "img/videos/room_v.mp4";
+    eleVideo.controls = false;
+    eleVideo.autoplay = false;
+});
